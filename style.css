@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset web */
+
+.heading{
+    margin-top: 10px;
+    background-color: grey;
+    width: 200px;
+    text-align: center;
+}
+
+
+.todo{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.delete{
+    background-color: rgb(217, 72, 222);
+    color: white;
+    margin-left: 100px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.BoxConfirm{
+    text-align: center;
+    display: block;
+    width: 30%;
+    position: fixed;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px black;
+     height: 100px; 
+    padding: 15px;
+    margin: auto;
+   display: none; 
+  border-radius: 5px;
+}
+
+.title{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.confirm{
+    background-color: rgb(216, 60, 216);
+    color: white;
+    margin: auto;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+}
+.cancel{
+    margin: auto;
+    width: 80px;
+    /* border: none; */
+    cursor: pointer;
+    height: 30px;
+}
+.show{
+    display: block;
+    background-color: grey;
+}
+
+.show .BoxConfirm{
+    display: block;
+}
